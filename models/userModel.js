@@ -20,7 +20,7 @@ const userSchema = new mongoose.Schema(
     },
     phone: {
       type: String,
-      require: [true, "phone is required"],
+      // require: [true, "phone is required"],
       unique: true,
     },
     role: {
@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema(
     },
     answer: {
       type: String,
-      required: [true, "Asnwer is required"],
+      // required: [true, "Asnwer is required"],
     },
   },
   { timestamps: true }
